@@ -1556,7 +1556,7 @@
 /* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\n\nvar Examples = function Examples(props) {\n  return React.createElement(\n    \"div\",\n    null,\n    React.createElement(\n      \"h1\",\n      null,\n      \"Examples Component!\"\n    ),\n    React.createElement(\n      \"p\",\n      null,\n      \"Welcome to examples page!\"\n    )\n  );\n};\n\nmodule.exports = Examples;\n\n//////////////////\n// WEBPACK FOOTER\n// ./app/components/Examples.jsx\n// module id = 252\n// module chunks = 0\n//# sourceURL=webpack:///./app/components/Examples.jsx?");
+	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\n\nvar Examples = function Examples(props) {\n  return React.createElement(\n    \"div\",\n    null,\n    React.createElement(\n      \"h1\",\n      null,\n      \"Examples\"\n    ),\n    React.createElement(\n      \"p\",\n      null,\n      \"Welcome to examples page!\"\n    )\n  );\n};\n\nmodule.exports = Examples;\n\n//////////////////\n// WEBPACK FOOTER\n// ./app/components/Examples.jsx\n// module id = 252\n// module chunks = 0\n//# sourceURL=webpack:///./app/components/Examples.jsx?");
 
 /***/ })
 /******/ ]);
