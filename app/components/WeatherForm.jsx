@@ -1,5 +1,9 @@
 var React = require("react");
 
+// $button-palette: map-merge($foundation-palette, (
+//     purple: #bb00ff
+// )) !default;
+
 var WeatherForm = React.createClass({
   onFormSubmit: function (e) {
     e.preventDefault();
@@ -14,7 +18,7 @@ var WeatherForm = React.createClass({
     return (
       <form onSubmit={this.onFormSubmit}>
         <input type="text" placeholder="Enter a city" ref="location"/>
-        <button>Get Weather</button>
+        <button className="button warning">Get Weather</button>
       </form>
     );
   }
